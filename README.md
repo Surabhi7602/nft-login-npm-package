@@ -5,7 +5,7 @@ Usage:
 On terminal, do the following:
 
 ```
-$ npm install nft-login-npm-package
+$ npm i nft-verify
 
 ```
 
