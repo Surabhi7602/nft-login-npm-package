@@ -12,7 +12,7 @@ $ npm i nft-verify
 In a JS file:
 
 ```
-const {verifyNFT} = require("nft-login-npm-package")
+const { verifyNFT } = require("nft-verify");
 
 /* Edit values respective to your project
 const TOKEN_ID = "XXXXX"
