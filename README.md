@@ -5,21 +5,22 @@ Usage:
 On terminal, do the following:
 
 ```
-$ npm i nft-verify
+$ npm install nft-verify
 
 ```
 
 In a JS file:
 
 ```
-const { verifyNFT } = require("nft-verify");
+const {verifyNFT} = require("nft-verify")
 
 /* Edit values respective to your project
 const TOKEN_ID = "XXXXX"
 const WALLET_ADDRESS = "YYYYY"
+const CONTRACT_ADDRESS = "ZZZZZ"
 
 /* Sample Use Case
-verifyNFT(TOKEN_ID, WALLET_ADDRESS).then((res) => {
+verifyNFT(TOKEN_ID, WALLET_ADDRESS, CONTRACT_ADDRESS).then((res) => {
     console.log(res);
 }).catch((err) => {
     console.log(err);

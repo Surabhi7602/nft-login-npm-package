@@ -18,7 +18,6 @@ async function checkNFT(tokenId, walletAddress, contractID) {
     const nfts = await web3.nft.getNftsForOwner(walletAddress);
 
     const nftList = nfts["ownedNfts"];
-    //   console.log(nftList);
     for (nft of nftList) {
       if (nft.contract.address.toLowerCase() === contractID.toLowerCase()) {
         if (nft.tokenId == tokenId) {
