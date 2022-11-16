@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nft-login-npm-package": "^1.0.2"
+    "nft-login-npm-package": "^1.0.2",
+    "nft-verify": "^1.0.7"
   }
 }
