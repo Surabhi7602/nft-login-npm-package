@@ -1,4 +1,6 @@
-Verify ownership of a specific NFT using Token ID and wallet address.
+Verify ownership of a specific NFT using Token ID and contract address
+
+[NPM PACKAGE](https://www.npmjs.com/package/nft-verify)
 
 Usage:
 
